@@ -1,0 +1,76 @@
+/* base elements */
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: blue;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+p {
+    font-size: .95em;
+    margin-bottom: 1.8em;
+}
+h1 {
+    margin-top: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+
+/* base layouts styles  */
+
+/* ----navigation---- */
+  
+.student-name {
+    font-size: 1.35em;
+    margin: 0;
+}
+.main-nav {
+    margin-top: 5px;
+}
+.student-name a,
+.main-nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+}
+.main-nav a {
+    font-size: .95em;
+    color: orange;
+    text-transform: uppercase;
+}
+.main-nav a:hover {
+    color: red;
+}
+/* ---- layout container ---- */
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+footer {
+    text-align: center;
+}
+
+/* media queries */
+@media (min-width: 769px) {
+    .main-header {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media (min-width: 1025px) {
+    .main-header {
+        width: 80%;
+        max-width: 1150px;
+    }
+}
