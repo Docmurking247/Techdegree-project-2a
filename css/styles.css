@@ -3,9 +3,11 @@
     box-sizing: border-box;
 }
 body {
+    text-align: center;
+    background-color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     line-height: 1.6;
-    color: blue;
+    color: black;
     margin: 0;
 }
 ul {
@@ -40,7 +42,6 @@ img {
 }
 .student-name a,
 .main-nav a {
-    text-align: center;
     display: block;
     padding: 10px 15px;
 }
