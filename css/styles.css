@@ -30,6 +30,13 @@ img {
 }
 
 /* base layouts styles  */
+a:hover {
+    text-decoration: underline;
+}
+a:visited {
+    color: blue;
+
+}
 
 /* ----navigation---- */
   
