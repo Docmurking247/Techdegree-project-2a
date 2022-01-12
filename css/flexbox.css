@@ -13,14 +13,16 @@ Media Queries
         flex-direction: column;
         align-items: center;
     }
-    .col {
-        flex: 1;
+    .secondary {   
+        flex: 2;
     }
-    .portfolio-item {
+    .item {
         flex: 1 50%;
     }
     .portfolio-container {
         flex-wrap: wrap;
+        flex-direction: column;
+
     }
 
 }
@@ -29,10 +31,13 @@ Media Queries
          flex-direction: row;
          justify-content: space-between;
     }
-    .primary {
+    .secondary {
         flex: 2;
     }
-    .portfolio-item {
-        flex-basis: 0;
+    .portfolio-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
+ 
 }
