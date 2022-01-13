@@ -6,10 +6,12 @@ Media Queries
     .main-header,
     .main-nav,
     .row,
-    .portfolio-container {
+    .portfolio-container,
+    .main-footer {
         display: flex;
     }
-    .main-header {
+    .main-header,
+    .main-footer {
         flex-direction: column;
         align-items: center;
     }
@@ -27,17 +29,26 @@ Media Queries
 
 }
 @media (min-width: 1025px) {
-    .main-header {
+    .main-header,
+    .main-footer {
          flex-direction: row;
          justify-content: space-between;
     }
     .secondary {
         flex: 2;
     }
-    .portfolio-container {
-        display: flex;
+    .portfolio-container,
+    .footer-container {
+    display: flex;
+    }
+    .portfolio-container{
         flex-direction: row;
         flex-wrap: wrap;
+    }
+    .footer-container{    
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
  
 }

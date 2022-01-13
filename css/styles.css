@@ -30,7 +30,7 @@ a {
     text-decoration: none;
 }
 img {
-    max-width: 55%;
+    max-width: 100%;
     height: auto;
     width: auto;
 }
@@ -82,6 +82,9 @@ footer {
 
 /* media queries */
 @media (min-width: 769px) {
+    .portfolio-container {
+        min-height: calc(100vh - 25px);
+    }
     .main-header {
         width: 90%;
         margin: 0 auto;
