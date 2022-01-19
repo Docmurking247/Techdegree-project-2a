@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\..\\school projects\\responsive_layout_v3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Techdegree-project-2a",
+		"liveServer.settings.port": 5501
+	}
+}
