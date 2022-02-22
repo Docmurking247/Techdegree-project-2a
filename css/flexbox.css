@@ -5,7 +5,7 @@ Media Queries
 @media (min-width: 769px) {
     .main-header,
     .main-nav,
-    .row,
+    #row,
     .portfolio-container,
     .main-footer {
         display: flex;
@@ -16,8 +16,8 @@ Media Queries
         align-items: center;
     }
   
-    .secondary {   
-        flex: 2;
+    .col {   
+        flex: 1;
     }
     .item {
         flex: 1 50%;
